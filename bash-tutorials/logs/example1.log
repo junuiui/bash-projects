@@ -1,0 +1,103 @@
+May  7 08:00:01 server-01 systemd[1]: Starting Periodic Command Scheduler...
+May  7 08:00:01 server-01 systemd[1]: Started Periodic Command Scheduler.
+May  7 08:00:05 server-01 sshd[1245]: Accepted password for admin from 192.168.1.15 port 54322 ssh2
+May  7 08:00:05 server-01 sshd[1245]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+May  7 08:01:12 server-01 kernel: [ 124.5621] iptables denied: IN=eth0 OUT= MAC=00:11:22:33:44:55 SRC=10.0.0.50 DST=10.0.0.1 PROTO=TCP SPT=443 DPT=58222
+May  7 08:02:15 server-01 kernel: [ 187.1102] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+May  7 08:05:22 server-01 sshd[1310]: Invalid user guest from 203.0.113.42 port 38210
+May  7 08:05:24 server-01 sshd[1310]: Connection closed by authenticating user guest 203.0.113.42 [preauth]
+May  7 08:10:01 seㅅrver-01 CRON[1450]: (root) CMD ( /usr/local/bin/backup.sh > /var/log/backup.log 2>&1)
+May  8 08:12:45 server-01 systemd[1]: apt-daily.service: Succeeded.
+May  8 08:15:10 server-01 kernel: [ 962.4410] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+May  8 08:20:33 server-01 sshd[1522]: Failed password for root from 198.51.100.12 port 44102 ssh2
+May  8 08:20:35 server-01 sshd[1522]: Failed password for root from 198.51.100.12 port 44102 ssh2
+May  8 08:20:38 server-01 sshd[1522]: Received disconnect from 198.51.100.12 port 44102:11: Bye Bye [preauth]
+May  8 08:25:01 server-01 systemd[1]: Starting Rotate log files...
+May  8 08:25:02 server-01 systemd[1]: logrotate.service: Succeeded.
+May  8 08:25:02 server-01 systemd[1]: Finished Rotate log files.
+May  8 08:30:12 server-01 kernel: [1842.1221] TCP: request_sock_TCP: Possible SYN flooding on port 80. Sending cookies.
+May  8 08:32:05 server-01 apache2[1600]: [error] [client 192.168.1.100] File does not exist: /var/www/html/favicon.ico
+May  8 08:35:44 server-01 sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+May  8 08:40:01 server-01 systemd[1]: Starting Daily apt download activities...
+May  8 08:42:12 server-01 kernel: [2562.9912] Out of memory: Kill process 1621 (mysqld) score 850 or sacrifice child
+May  8 08:42:12 server-01 kernel: [2562.9915] Killed process 1621 (mysqld) total-vm:2560400kB, anon-rss:1821044kB, file-rss:0kB, shmem-rss:0kB
+May  8 08:42:15 server-01 systemd[1]: mysql.service: Main process exited, code=killed, status=9/KILL
+May  8 08:42:15 server-01 systemd[1]: mysql.service: Failed with result 'signal'.
+May  8 08:42:18 server-01 systemd[1]: mysql.service: Service restart-timer expired, scheduling restart.
+May  8 08:42:18 server-01 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+May  8 08:42:18 server-01 systemd[1]: Starting MySQL Community Server...
+May  8 08:42:25 server-01 systemd[1]: Started MySQL Community Server.
+May  8 08:45:01 server-01 CRON[1750]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May  8 08:50:11 server-01 sshd[1820]: Accepted password for admin from 192.168.1.15 port 54340 ssh2
+May  8 08:50:11 server-01 sshd[1820]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+May  8 08:52:10 server-01 sudo:    admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+May  8 08:55:01 server-01 systemd[1]: Starting Cleanup of Temporary Directories...
+May  8 08:55:02 server-01 systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+May  8 08:55:02 server-01 systemd[1]: Finished Cleanup of Temporary Directories.
+May  8 09:00:01 server-01 CRON[1910]: (root) CMD ( /usr/local/bin/monitor_traffic.sh)
+May  8 09:05:44 server-01 kernel: [3961.0023] usb 1-1: USB disconnect, device number 2
+May  8 09:10:22 server-01 sshd[2005]: Invalid user ubnt from 45.33.22.156 port 49122
+May  8 09:10:25 server-01 sshd[2005]: Connection closed by authenticating user ubnt 45.33.22.156 [preauth]
+May  8 09:15:33 server-01 apache2[1600]: [notice] Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+May  8 09:20:01 server-01 CRON[2100]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May  8 09:22:15 server-01 kernel: [4962.1122] sd 0:0:0:0: [sda] Starting disk
+May  8 09:25:40 server-01 sshd[2210]: Failed password for invalid user user from 103.25.12.88 port 51221 ssh2
+May  8 09:25:42 server-01 sshd[2210]: Received disconnect from 103.25.12.88 port 51221:11: Bye Bye [preauth]
+May  8 09:30:01 server-01 systemd[1]: Starting Daily apt upgrade and clean activities...
+May  8 09:35:12 server-01 kernel: [5742.0011] audit: type=1400 audit(1620462912.123:45): apparmor="DENIED" operation="open" profile="/usr/sbin/ntpd" name="/etc/ntp.conf" pid=850 comm="ntpd" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+May  8 09:40:05 server-01 CRON[2340]: (root) CMD ( /usr/bin/python3 /opt/scripts/health_check.py)
+May  8 09:45:22 server-01 postfix/master[1105]: reload -- version 3.4.10, configuration /etc/postfix
+May  8 09:45:23 server-01 postfix/pickup[2401]: BC82121405: uid=0 from=<root>
+May  8 09:45:23 server-01 postfix/cleanup[2402]: BC82121405: message-id=<20210508094523.BC82121405@server-01.localdomain>
+May  8 09:45:23 server-01 postfix/qmgr[1108]: BC82121405: from=<root@server-01.localdomain>, size=452, nrcpt=1 (queue active)
+May  8 09:45:24 server-01 postfix/local[2404]: BC82121405: to=<admin@server-01.localdomain>, relay=local, delay=1.2, delays=0.05/0.01/0/1.1, dsn=2.0.0, status=sent (delivered to mailbox)
+May  8 09:45:24 server-01 postfix/qmgr[1108]: BC82121405: removed
+May  8 09:50:01 server-01 systemd[1]: Starting Message of the Day...
+May  8 09:50:02 server-01 systemd[1]: motd-news.service: Succeeded.
+May  8 09:50:02 server-01 systemd[1]: Finished Message of the Day.
+May  8 09:55:12 server-01 kernel: [6942.5512] traps: bash[2510] general protection fault ip:7f8e12345678 sp:7ffc12345678 error:0 in libc-2.31.so[7f8e12300000+178000]
+May  8 10:00:01 server-01 CRON[2600]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May  8 10:05:40 server-01 sshd[2715]: Accepted password for admin from 192.168.1.15 port 54355 ssh2
+May  8 10:05:40 server-01 sshd[2715]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+May  8 10:08:12 server-01 sudo:    admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+May  8 10:08:12 server-01 systemd[1]: Stopping The Apache HTTP Server...
+May  8 10:08:13 server-01 systemd[1]: apache2.service: Succeeded.
+May  8 10:08:13 server-01 systemd[1]: Stopped The Apache HTTP Server.
+May  8 10:08:13 server-01 systemd[1]: Starting The Apache HTTP Server...
+May  8 10:08:14 server-01 systemd[1]: Started The Apache HTTP Server.
+May  8 10:12:44 server-01 kernel: [8001.2210] net_ratelimit: 15 callbacks suppressed
+May  8 10:15:01 server-01 systemd[1]: Starting Daily apt download activities...
+May  8 10:20:22 server-01 sshd[2850]: Invalid user support from 185.220.101.4 port 33410
+May  8 10:20:25 server-01 sshd[2850]: Connection closed by authenticating user support 185.220.101.4 [preauth]
+May  8 10:25:01 server-01 systemd[1]: Starting Rotate log files...
+May  8 10:25:02 server-01 systemd[1]: logrotate.service: Succeeded.
+May  8 10:30:44 server-01 CRON[2940]: (root) CMD ( /usr/local/bin/sync_cloud.sh )
+May  8 10:35:12 server-01 kernel: [9321.4423] EXT4-fs (sda1): 12 orphan inodes deleted
+May  8 10:40:01 server-01 systemd[1]: Starting Periodic Command Scheduler...
+May  8 10:45:10 server-01 sshd[3010]: Failed password for root from 193.106.31.144 port 45112 ssh2
+May  8 10:45:12 server-01 sshd[3010]: Failed password for root from 193.106.31.144 port 45112 ssh2
+May  8 10:45:15 server-01 sshd[3010]: Received disconnect from 193.106.31.144 port 45112:11: [preauth]
+May  8 10:50:01 server-01 CRON[3100]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May  8 10:52:18 server-01 systemd[1]: Starting Message of the Day...
+May  8 10:52:19 server-01 systemd[1]: motd-news.service: Succeeded.
+May  8 10:55:40 server-01 kernel: [10512.9912] audit: type=1400 audit(1620467740.441:46): apparmor="DENIED" operation="ptrace" profile="docker-default" pid=3120 comm="ps" requested_mask="trace" denied_mask="trace" target="docker-default"
+May  8 11:00:01 server-01 systemd[1]: Starting Periodic Command Scheduler...
+May  8 11:05:12 server-01 apache2[1600]: [error] [client 45.79.10.12] script not found or unable to stat: /var/www/html/wp-login.php
+May  8 11:08:33 server-01 sudo:    admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/df -h
+May  8 11:10:01 server-01 CRON[3250]: (root) CMD ( /usr/local/bin/monitor_temp.sh )
+May  8 11:15:22 server-01 sshd[3315]: Accepted password for admin from 192.168.1.15 port 54370 ssh2
+May  8 11:15:22 server-01 sshd[3315]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+May  8 11:20:01 server-01 CRON[3400]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May  8 11:25:44 server-01 kernel: [12311.1210] usb 1-1: new high-speed USB device number 3 using xhci_hcd
+May  9 11:30:05 server-01 systemd[1]: Starting Cleanup of Temporary Directories...
+May  9 11:30:06 server-01 systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+May  9 11:35:12 server-01 sshd[3501]: Invalid user pi from 187.121.45.10 port 40122
+May  9 11:35:15 server-01 sshd[3501]: Connection closed by authenticating user pi 187.121.45.10 [preauth]
+May  9 11:40:01 server-01 systemd[1]: Starting Periodic Command Scheduler...
+May  9 11:42:10 server-01 kernel: [13312.4410] Bluetooth: Core ver 2.22
+May  9 11:42:10 server-01 kernel: [13312.4411] NET: Registered protocol family 31
+May  9 11:42:10 server-01 kernel: [13312.4412] Bluetooth: HCI device and connection manager initialized
+May  10 11:45:01 server-01 CRON[3650]: (root) CMD ( /usr/bin/python3 /opt/scripts/report_gen.py )
+May  10 11:50:22 server-01 sudo:    admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/ls /var/log
+May  11 11:55:40 server-01 sshd[3710]: Failed password for root from 218.92.1.50 port 33211 ssh2
+May  12 11:55:42 server-01 sshd[3710]: Received disconnect from 218.92.1.50 port 33211:11: Bye Bye [preauth]

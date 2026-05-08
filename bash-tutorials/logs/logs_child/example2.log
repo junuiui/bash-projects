@@ -1,0 +1,9 @@
+May  19 11:35:15 server-01 sshd[3501]: Connection closed by authenticating user pi 187.121.45.10 [preauth]
+May  19 11:40:01 server-01 systemd[1]: Starting Periodic Command Scheduler...
+May  19 11:42:10 server-01 kernel: [13312.4410] Bluetooth: Core ver 2.22
+May  19 11:42:10 server-01 kernel: [13312.4411] NET: Registered protocol family 31
+May  19 11:42:10 server-01 kernel: [13312.4412] Bluetooth: HCI device and connection manager initialized
+May  20 11:45:01 server-01 CRON[3650]: (root) CMD ( /usr/bin/python3 /opt/scripts/report_gen.py )
+May  20 11:50:22 server-01 sudo:    admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/ls /var/log
+May  21 11:55:40 server-01 sshd[3710]: Failed password for root from 218.92.1.50 port 33211 ssh2
+May  22 11:55:42 server-01 sshd[3710]: Received disconnect from 218.92.1.50 port 33211:11: Bye Bye [preauth]
