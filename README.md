@@ -1,2 +1,2 @@
 # bash-projects
-Projects to practice Bash Scripting
+[Projects to practice Bash Scripting](./projects/readme.md)
